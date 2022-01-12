@@ -1,0 +1,9 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  #stage {
+    margin: 0 auto;
+    max-width: 1600px;
+    aspect-ratio: 16 / 9;
+  }
+}

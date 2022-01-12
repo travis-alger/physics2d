@@ -1,0 +1,1 @@
+exports.Physics2d = parcelRequire

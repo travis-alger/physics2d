@@ -1,0 +1,24 @@
+{
+  "name": "physics2d",
+  "version": "0.1.0",
+  "description": "2d drawing library with object physics such as gravity and collision as well as common helper utilities such as camera control.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run build && parcel src/demo/index.html",
+    "build": "parcel build src/core/World.ts --no-source-maps"
+  },
+  "keywords": [],
+  "author": "Travis Alger",
+  "license": "ISC",
+  "dependencies": {
+    "matter-js": "^0.18.0",
+    "two.js": "^0.7.13",
+    "typescript": "^4.5.4"
+  },
+  "devDependencies": {
+    "@types/matter-js": "^0.17.6",
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.45.2"
+  }
+}
